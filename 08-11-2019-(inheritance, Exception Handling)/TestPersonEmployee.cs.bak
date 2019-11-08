@@ -1,0 +1,10 @@
+using System;
+public class TestPersonEmployee
+{
+    static void Main(string[] args)
+    {
+        DerivedEmployee obj = new DerivedEmployee("abc",20, "Delhi", 101, 20000);
+        obj.DisplayEmployeeDetails();
+
+    }
+}
